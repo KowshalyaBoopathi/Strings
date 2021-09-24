@@ -4,12 +4,13 @@ import java.util.Arrays;
 
 public class StringsSubstring {
 	public static void main(String[] args) {
-		String s="unemployed";
+		//String s="unemployed";
 		//System.out.println(s.substring(2)); 
-		//System.out.println(s.substring(0,2)); 
-		String text= new String("Hello, I am JAVA"); 
+		//System.out.println(s.substring(0,2));
 		
-        String[] sentences = text.split("\\.");
+		String text= new String("BookTitle : The Alchemist"); 
+		
+        String[] sentences = text.split("\\:");
         
         //System.out.println(sentences);
         
